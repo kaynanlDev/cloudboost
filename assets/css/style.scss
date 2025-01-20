@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+@import 'partials/responsive';
+@import 'partials/typograph';
+@import 'partials/colors';
+@import 'partials/layout';
+
+body{
+    width: 100%;
+}

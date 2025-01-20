@@ -1,0 +1,8 @@
+$desktop: 1200px;
+$mobile: 580px;
+
+@mixin responsivi($breakpoint){
+    @media screen and (max-width: $breakpoint){
+        @content;
+    }
+}
