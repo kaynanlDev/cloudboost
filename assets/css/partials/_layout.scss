@@ -11,7 +11,8 @@
     color: $gray-1;
     font-size: 1.8rem;
     border-radius: 10rem;
-    border: 1px solid rgba(255, 255, 255, 0.16);
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    cursor: pointer;
     transition: .3s ease;
 
     &:hover{
@@ -53,6 +54,85 @@ header{
                     }
                 }
             }
+        }
+    }
+}
+.s-hero{
+    width: 100%;
+    padding-top: 8rem;
+    padding-bottom: 9.6rem;
+   
+    .container{
+        display: flex;
+        justify-content: space-between;
+        gap: 2.4rem;
+        border-bottom: rgba(255, 255, 255, 0.10);
+        
+        .left{
+            margin-top: calc(10.8rem - 8rem);
+            h1{
+                span{
+                    color: $purple-1;
+                    text-decoration: underline;
+                }
+            }
+
+            p{
+                color: $gray-3;
+                margin: 1.6rem 0 3.2rem 0;
+                max-width: 49.1rem;
+            }
+
+            form{
+                display: flex;
+                justify-content: space-between;
+                background-color: rgba(255, 255, 255, 0.04);
+                border-radius: 10rem;
+                max-width: 52.1rem;
+
+                input{
+                    background-color: transparent;
+                    border: none;
+                    outline: none;
+                    padding: 2rem 2.4rem;
+                    color: $gray-3;
+                    font-size: 1.6rem;
+                    font-weight: 400;
+                }
+                button{
+                    
+                    margin: 0.4rem;
+                }
+
+            }
+            .companys{
+                display: flex;
+                align-items: center;
+                gap: 2.5rem;
+                margin: 4.8rem 0;
+            }
+            .persons{
+                display: flex;
+                align-items: center;
+                gap: 0.8rem;
+
+                .person-reviwes{
+                    display: flex;
+                    align-items: center;
+                    gap: 0.4rem;
+                    font-size: 1.8rem;
+                    color: $gray-1;
+
+                    span{
+                        color: $gray-6;
+                        font-weight: 400;
+                    }
+                }
+            }
+        }
+        .right{
+            max-width: 592px;
+            letter-spacing: -3%;
         }
     }
 }
