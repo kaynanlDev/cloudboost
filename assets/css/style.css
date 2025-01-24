@@ -38,6 +38,10 @@ h5 {
   font-size: 2.8rem;
 }
 
+h6 {
+  font-size: 1.8rem;
+}
+
 p {
   font-size: 2.2rem;
   line-height: 150%;
@@ -99,13 +103,13 @@ header .container .header-content nav a span:hover {
 .s-hero {
   width: 100%;
   padding-top: 8rem;
-  padding-bottom: 9.6rem;
 }
 .s-hero .container {
   display: flex;
   justify-content: space-between;
   gap: 2.4rem;
-  border-bottom: rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+  padding-bottom: 9.6rem;
 }
 .s-hero .container .left {
   margin-top: 2.8rem;
@@ -163,6 +167,52 @@ header .container .header-content nav a span:hover {
 .s-hero .container .right {
   max-width: 592px;
   letter-spacing: -3%;
+}
+
+.s-resources {
+  width: 100%;
+  padding-top: 11.2rem;
+}
+.s-resources .container {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+  padding-bottom: 11.1rem;
+}
+.s-resources .container .top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8rem;
+}
+.s-resources .container .top h4 {
+  max-width: 66.1rem;
+}
+.s-resources .container .top p {
+  font-size: 1.6rem;
+  color: #C0C3CC;
+}
+.s-resources .container .cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5.6rem;
+}
+.s-resources .container .cards .card .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 4.8rem;
+  height: 4.8rem;
+  background-color: rgba(255, 255, 255, 0.03);
+  padding: 1.1rem;
+  border-radius: 0.4rem;
+  margin-bottom: 1.8rem;
+}
+.s-resources .container .cards .card h6 {
+  margin: 1.6rem 0;
+}
+.s-resources .container .cards .card p {
+  font-size: 1.6rem;
+  color: #787C87;
 }
 
 body {
