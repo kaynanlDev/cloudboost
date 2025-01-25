@@ -99,6 +99,14 @@ header .container .header-content nav a span {
 header .container .header-content nav a span:hover {
   opacity: 0.8;
 }
+@media screen and (max-width: 600px) {
+  header .container .header-content {
+    justify-content: center;
+  }
+  header .container .header-content nav {
+    display: none;
+  }
+}
 
 .s-hero {
   width: 100%;
@@ -168,6 +176,26 @@ header .container .header-content nav a span:hover {
   max-width: 592px;
   letter-spacing: -3%;
 }
+@media screen and (max-width: 780px) {
+  .s-hero .container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .s-hero .container .left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .s-hero .container p {
+    text-align: center;
+    font-size: 1.6rem;
+  }
+  .s-hero .container h1 {
+    font-size: 4rem;
+    text-align: center;
+  }
+}
 
 .s-resources {
   width: 100%;
@@ -212,6 +240,71 @@ header .container .header-content nav a span:hover {
 }
 .s-resources .container .cards .card p {
   font-size: 1.6rem;
+  color: #787C87;
+}
+@media screen and (max-width: 780px) {
+  .s-resources .container .top {
+    flex-direction: column;
+  }
+  .s-resources .container .top h4 {
+    font-size: 2.8rem;
+    text-align: center;
+  }
+  .s-resources .container .top p {
+    font-size: 1.6rem;
+    text-align: center;
+  }
+  .s-resources .container .cards {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .s-resources .container .cards .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .s-resources .container .cards .card h6 {
+    text-align: center;
+  }
+  .s-resources .container .cards .card p {
+    text-align: center;
+  }
+}
+
+.s-lever {
+  width: 100%;
+  padding: 9.6rem 2.4rem 12.6rem 2.4rem;
+}
+.s-lever .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(to right, #4320C3, #3D11DB);
+  padding: 8.1rem 0;
+  border-radius: 1rem;
+}
+.s-lever .container h2 {
+  max-width: 78.6rem;
+  text-align: center;
+}
+.s-lever .container p {
+  text-align: center;
+  max-width: 50.1rem;
+  font-size: 2rem;
+  color: #DFE1E8;
+  margin: 0.8rem 0 3.2rem 0;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 0;
+}
+footer span {
   color: #787C87;
 }
 
